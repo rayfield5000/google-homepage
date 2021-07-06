@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    min-width: 400px;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navbar {
+    flex: 75px;
+    background-color: seagreen;
+}
+
+.batSignal {
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+}
+
+.finder {
+    display: flex;
+    width: auto;
+    max-width: 600px;
+}
+
+.barFinder {
+    justify-content: center;
+    flex: 1;
+}
+
+.btnSearch {
+    background-color: #e4efe7;
+    opacity: 0.5;
+
+    border-radius: 12px;
+}
+
+.btnFeeling {
+    background-color: #e4efe7;
+    opacity: 0.5;
+    border-radius: 12px;
+}
+
+#googler {
+    height: 35px;
+    width: 550px;
+    border-radius: 15px;
+    border: 2px thin lightgrey;
+    opacity: 0.5;
+    text-indent: 25px;
+    flex: 20px;
+    justify-content: center;
+}
+
+.valley {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex: 350px;
+    background: wheat;
+}
+
+.navlow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    height: 50px;
+    padding: 20px;
+}
