@@ -14,8 +14,14 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: underline;
+    text-decoration: none;
+}
+
 .navbar {
     flex: 75px;
+    align-items: center;
     background-color: seagreen;
 }
 
@@ -25,39 +31,42 @@ body {
     background-color: royalblue;
 }
 
+i {
+    position: fixed;
+    padding: 10px;
+}
+
 .finder {
     display: flex;
     width: auto;
-    max-width: 600px;
+    flex: 250px;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
 }
 
 .barFinder {
-    justify-content: center;
-    flex: 1;
+    flex: 45px;
+    border-radius: 10px;
+    width: 500px;
 }
 
-.btnSearch {
-    background-color: #e4efe7;
-    opacity: 0.5;
-
+button {
+    border: 1px solid #f8f9fa;
+    box-shadow: 0 1px 1px;
+    text-align: center;
+    height: 30px;
     border-radius: 12px;
 }
 
-.btnFeeling {
-    background-color: #e4efe7;
-    opacity: 0.5;
-    border-radius: 12px;
-}
-
-#googler {
+.googler {
     height: 35px;
     width: 550px;
     border-radius: 15px;
-    border: 2px thin lightgrey;
-    opacity: 0.5;
-    text-indent: 25px;
+    border: 2px thin;
+    box-shadow: 0 1px 1px;
+    text-indent: 30px;
     flex: 20px;
-    justify-content: center;
 }
 
 .valley {
@@ -71,7 +80,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #f2f2f2;
-    height: 50px;
+    background-color: grey;
+    height: 40px;
     padding: 20px;
 }
