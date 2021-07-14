@@ -17,23 +17,40 @@ body {
 a {
     text-decoration: underline;
     text-decoration: none;
+    display: inline-block;
+    margin: 12px;
 }
-
+span {
+    padding: 10px;
+}
 .navbar {
-    flex: 75px;
-    align-items: center;
-    background-color: seagreen;
+    flex: 60px;
+    display: flex;
+    flex-wrap: wrap nowrap;
+    justify-content: space-between;
+    padding: 5px;
+    width: fit-content;    
+}
+.rightnav {
+    display: flex;
+}
+.icon {
+    justify-content: center;
 }
 
 .batSignal {
     display: flex;
     justify-content: center;
-    background-color: royalblue;
+    align-items: center;
+    height: 160px;    
 }
 
 i {
-    position: fixed;
+    position: relative;
     padding: 10px;
+    opacity: 0.5;
+    left: 3rem;
+    top: 0.5rem;
 }
 
 .finder {
@@ -42,7 +59,7 @@ i {
     flex: 250px;
     background-color: tomato;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .barFinder {
@@ -50,25 +67,21 @@ i {
     border-radius: 10px;
     width: 500px;
 }
-
-button {
-    border: 1px solid #f8f9fa;
-    box-shadow: 0 1px 1px;
-    text-align: center;
-    height: 30px;
-    border-radius: 12px;
-}
-
 .googler {
     height: 35px;
     width: 550px;
-    border-radius: 15px;
-    border: 2px thin;
+    border-radius: 17px;
+    border: 1px thin;
     box-shadow: 0 1px 1px;
     text-indent: 30px;
     flex: 20px;
 }
-
+button {
+    border: 1px solid #f8f9fa;
+    height: 30px;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+}
 .valley {
     box-sizing: border-box;
     flex-shrink: 0;
