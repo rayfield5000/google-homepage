@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
     min-width: 400px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
     margin: 0;
     background: #fff;
@@ -57,9 +57,7 @@ i {
     display: flex;
     width: auto;
     flex: 250px;
-    background-color: tomato;
     justify-content: center;
-    
 }
 
 .barFinder {
@@ -70,30 +68,57 @@ i {
 .googler {
     height: 35px;
     width: 550px;
-    border-radius: 17px;
-    border: 1px thin;
-    box-shadow: 0 1px 1px;
+}
+
+.googler {
+    border: 1px solid #dfe1e5;
+    background: #fff;
+    margin: 0 auto;
+    padding: 5px 8px 0 14px;
+    border-radius: 20px;
+    box-shadow: none;
     text-indent: 30px;
-    flex: 20px;
+    flex: 20px;    
 }
-button {
+
+.centerbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;    
+}
+
+.gSearch  {
     border: 1px solid #f8f9fa;
+    background: #f8f9fa;
     height: 30px;
-    border-radius: 12px;
-    background-color: #f8f9fa;
+    position: relative;
+    top: 2rem;
+    border-radius: 5px;
+    margin: 11px 4px;
+    
 }
+.iFeel {
+    border: 1px solid #f8f9fa;
+    background: #f8f9fa;
+    height: 30px;
+    position: relative;
+    top: 2rem;
+    border-radius: 5px;
+    margin: 11px 4px;
+}
+
 .valley {
     box-sizing: border-box;
     flex-shrink: 0;
     flex: 350px;
-    background: wheat;
 }
 
 .navlow {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: grey;
+    background-color:#f8f9fa;
     height: 40px;
     padding: 20px;
 }
